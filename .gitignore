@@ -1,0 +1,62 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+
+# Frontend build output
+frontend/dist/
+
+# Saved trip results (user-generated runtime data)
+backend/app/saved_results/*.json
+backend/app/saved_results/checkpoints.sqlite*
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Personal notes and agent instructions (kept locally, not published)
+docs/
+AGENTS.md
+CLAUDE.md
+.claude/
+.agents/
+.aws/
+.codex/

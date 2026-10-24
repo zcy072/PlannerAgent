@@ -1,0 +1,26 @@
+# Direct dependency ranges. Reproducible installs use requirements.lock.txt.
+# Regenerate from the repository root with the command documented in README.md.
+
+# Core
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# FastAPI
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# LangChain
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+langgraph>=0.2.0
+langgraph-checkpoint-sqlite>=2.0.0
+aiosqlite>=0.20.0
+mcp>=1.27,<2
+
+# HTTP Client
+httpx>=0.27.0
+
+# Utilities
+loguru>=0.7.0
+tenacity>=8.2.0  # 重试机制
